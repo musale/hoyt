@@ -1,0 +1,18 @@
+name = "Hoyt"
+license = "MIT"
+licenselink = "https://github.com/musale/hoyt/blob/master/LICENSE"
+description = "A simple theme for the people"
+homepage = "https://musale.github.io/hoyt"
+tags = [go, hugo]
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Martin Musale"
+  homepage = "https://dev.to/musale"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
