@@ -1,3 +1,37 @@
-baseURL = "http://example.org/"
+baseURL = "https://musale.github.io/musale/musale-dev/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "John Doe"
+theme = "hoyt"
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsStyle = "native"
+enableEmoji = true
+latexDashes = true
+
+[[menu.main]]
+	name = "Home"
+	url  = "/"
+	weight = 10
+
+[[menu.main]]
+	name = "Projects"
+	url  = "/projects"
+	weight = 20
+
+[[menu.main]]
+	name = "Contact"
+	url  = "/contacts"
+	weight = 30
+
+[params]
+	name = "John Doe"
+	tagLine = "all is well"
+    description = """What good?"""
+
+    avatar = "images/avatar.jpg"
+    avatarAlt = "Puppies"
+    avatarTitle = "I love Puppies"
+
+    [[params.subheading]]
+    title = "Things I like doing"
+    description = """This will be a surprise to you."""
