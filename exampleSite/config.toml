@@ -1,6 +1,12 @@
-baseURL = "https://musale.github.io/musale/musale-dev/"
-languageCode = "en-us"
-title = "John Doe"
+baseURL = "https://gohugo.io/"
+title = "Hugo Themes"
+author = "Martin Musale"
+copyright = "Copyright © 2008–2019, Martin Musale; all rights reserved."
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
 theme = "hoyt"
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
@@ -14,24 +20,34 @@ latexDashes = true
 	weight = 10
 
 [[menu.main]]
-	name = "Projects"
-	url  = "/projects"
+	name = "Posts"
+	url  = "/post"
 	weight = 20
 
 [[menu.main]]
-	name = "Contact"
-	url  = "/contacts"
-	weight = 30
+	name = "About"
+	url  = "/about"
+	weight = 80
 
 [params]
-	name = "John Doe"
+	name = "Hoyt Theme"
 	tagLine = "all is well"
-    description = """What good?"""
+    description = """I’m Musale Martin – a learner, problem-solver and software engineer from Kenya, based in Nairobi.
+
+I graduated with a BS in Mathematics & Computer Science from [Jomo Kenyatta University of Agriculture and Technology](http://www.jkuat.ac.ke/), where I developed my love for technology and problem solving.
+
+I’m currently with the Automation and Data Pipelining team at [Libryo](https://libryo.com). We’re making Law easily accesible, readable and always updated on our platform.
+
+Previously, I was with [Optimetriks](https://optimetriks.com), [Gravity](https://gravity.earth) and [Focus Mobile](https://smsleopard.com) where I helped to make sending bulk SMSs faster and more efficient.
+
+When I'm not doing server configurations, I listen to music ~~and you can tell I love Rihanna~~ 😉, I [write](/thoughts), travel, [read](https://www.goodreads.com/user/show/13682301-mr-musale), and I imagine myself exercise.
+
+Currently, I'm into interpreters, compilers and how programming languages work."""
 
     avatar = "images/avatar.jpg"
-    avatarAlt = "Puppies"
-    avatarTitle = "I love Puppies"
+    avatarAlt = "Rihanna"
+    avatarTitle = "I love Rihanna"
 
     [[params.subheading]]
-    title = "Things I like doing"
-    description = """This will be a surprise to you."""
+    title = "Projects I've authored"
+    description = """I've authored or co-developed a few small open source software projects. They now live on their own <a href="/projects/">projects page</a>."""
