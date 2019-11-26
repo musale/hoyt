@@ -1,0 +1,3 @@
+[submodule "exampleSite/themes/hoyt"]
+	path = exampleSite/themes/hoyt
+	url = https://github.com/musale/hoyt.git
