@@ -9,17 +9,15 @@ _Hoyt_ is a theme built for go hugo with inspiration from [Ben Hoyt's](https://b
 - Fully responsive including mobile support.
 - Excellent code highlight support thanks to Hugo Chroma.
 - Display Math with LaTex Math support.
+- Google Analytics support.
 
 ## ToDos
 
 Feel free to pick up any of these, add more and PR.
 
 - [ ] Social support
-- [ ] Google Analytics support.
 - [ ] Disqus commenting support.
 - [ ] Multi-language, il8n support.
-- [ ] Font Awesome Icon Support.
-- [ ] Lazyload images.
 
 ## Installation
 
