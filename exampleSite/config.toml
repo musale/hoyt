@@ -13,6 +13,7 @@ pygmentsCodefencesGuessSyntax = true
 pygmentsStyle = "native"
 enableEmoji = true
 latexDashes = true
+# googleAnalytics = ""
 
 [[menu.main]]
 	name = "Home"
