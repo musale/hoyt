@@ -17,23 +17,16 @@
 {{ .Content | markdownify | safeHTML}}
 
 <div>
-    <script src="https://utteranc.es/client.js"
-        repo="musale/musale.github.io"
-        issue-term="pathname"
-        label="comment"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-    </script>
-</div>
-
-<div>
     {{ with .PrevInSection }}
         <a class="previous" href="{{.Permalink}}"> {{.Title}}</a>
     {{ end }}
     {{ with .NextInSection }}
         <a class="next" href="{{.Permalink}}"> {{.Title}}</a>
     {{ end }}
+</div>
+
+<div>
+    {{ partial "utterances.html" . }}
 </div>
 
 {{ end }}
