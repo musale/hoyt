@@ -27,6 +27,9 @@
 
 <div>
     {{ partial "utterances.html" . }}
+    {{ if .Site.GoogleAnalytics }}
+        {{ template "_internal/disqus.html" . }}
+    {{ end }}
 </div>
 
 {{ end }}

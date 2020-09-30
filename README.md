@@ -10,13 +10,13 @@ _Hoyt_ is a theme built for go hugo with inspiration from [Ben Hoyt's](https://b
 - Excellent code highlight support thanks to Hugo Chroma.
 - Display Math with LaTex Math support.
 - Google Analytics support.
+- Commenting on posts/content with [Utterances](https://utteranc.es/di) or [Disqus](https://disqus.com/).
 
 ## ToDos
 
 Feel free to pick up any of these, add more and PR.
 
 - [ ] Social support
-- [ ] Disqus commenting support.
 - [ ] Multi-language, il8n support.
 
 ## Installation
