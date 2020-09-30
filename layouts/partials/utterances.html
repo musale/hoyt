@@ -1,10 +1,10 @@
-{{ with .Site.Utterances }}
+{{ with .Site.Params.Utterances }}
     <script 
         src="https://utteranc.es/client.js"
         repo="{{.Repo}}"
-        issue-term="{{.Issue_term}} | default pathname"
-        label="{{.Label}} | default comment"
-        theme="{{.Theme}} | default github-light"
+        issue-term='{{.Issue_term | default "pathname"}}'
+        label='{{.Label | default "comment"}}'
+        theme='{{.Theme | default "github-light"}}'
         crossorigin="anonymous"
         async>
     </script>
