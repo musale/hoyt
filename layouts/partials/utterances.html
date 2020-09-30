@@ -1,5 +1,11 @@
-<!-- {{ if .Site.Utterances }} -->
-<script src="https://utteranc.es/client.js" repo="musale/musale.github.io" issue-term="pathname" label="comment"
-    theme="github-light" crossorigin="anonymous" async>
+{{ with .Site.Utterances }}
+    <script 
+        src="https://utteranc.es/client.js"
+        repo="{{.Repo}}"
+        issue-term="{{.Issue_term}} | default pathname"
+        label="{{.Label}} | default comment"
+        theme="{{.Theme}} | default github-light"
+        crossorigin="anonymous"
+        async>
     </script>
-<!-- {{ end }} -->
+{{ end }}
